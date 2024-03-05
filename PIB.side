@@ -1,0 +1,306 @@
+{
+  "id": "5d2b17d2-3e41-463b-a45a-8026ea9d87a9",
+  "version": "2.0",
+  "name": "PIB",
+  "url": "https://pib.gov.in/",
+  "tests": [{
+    "id": "d986097f-31fe-4782-a5d7-0bc41c04d364",
+    "name": "Untitled",
+    "commands": [{
+      "id": "264b39bb-b4a6-436e-9dd6-5f9ac5b301bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://pib.gov.in/indexd.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1667a054-24eb-4dab-8bc5-605b0f41a4b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1104x630",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "130e0dc6-5eb0-4113-ba3e-baeb72e4e823",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,228.8000030517578)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ac70e4c-2622-4e7d-8bee-b4f68c15bcaf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PM congratulates Shehbaz Sharif on being sworn in as Pakistan Prime Minister",
+      "targets": [
+        ["linkText=PM congratulates Shehbaz Sharif on being sworn in as Pakistan Prime Minister", "linkText"],
+        ["css=.release_list > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PM congratulates Shehbaz Sharif on being sworn in as Pakistan Prime Minister')]", "xpath:link"],
+        ["xpath=//form[@id='form1']/section[2]/div/div/div[2]/div[3]/div[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/PressReleseDetail.aspx?PRID=2011468')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PM congratulates Shehbaz Sharif on being sworn in as Pakistan Prime Minister')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a99c34a-a8fb-426a-8919-7e54180c78b9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "8584a5a3-326e-43df-8e1e-465942122972",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "pib",
+      "windowTimeout": 2000
+    }, {
+      "id": "51b20eb9-af9d-41f3-b8d5-17eb777427cb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1ecb87-1b03-4a02-a8d9-18ac854b7627",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All Releases",
+      "targets": [
+        ["linkText=All Releases", "linkText"],
+        ["css=.sfHover:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'All Releases')]", "xpath:link"],
+        ["xpath=//ul[@id='example']/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/allRel.aspx')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All Releases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3f6b780-a436-4fc9-8088-80c5197eba83",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PM lays foundation stone and dedicates to nation multiple development projects worth more than Rs 6,800 crores in Sangareddy, Telangana",
+      "targets": [
+        ["linkText=PM lays foundation stone and dedicates to nation multiple development projects worth more than Rs 6,800 crores in Sangareddy, Telangana", "linkText"],
+        ["css=ul:nth-child(1) .num > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PM lays foundation stone and dedicates to nation multiple development projects worth more than Rs 6,800 crores in Sangareddy, Telangana')]", "xpath:link"],
+        ["xpath=//form[@id='form1']/section[2]/div/div[7]/div/div/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/PressReleasePage.aspx?PRID=2011518')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PM lays foundation stone and dedicates to nation multiple development projects worth more than Rs 6,800 crores in Sangareddy, Telangana')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6580",
+      "windowTimeout": 2000
+    }, {
+      "id": "94f3c00e-c30c-47c9-96ce-2721ccbffb87",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5286d8fb-4e06-48d2-a893-c4d791e51481",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6580}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3da5c678-7199-4a37-a6b7-bdbe0a1e1de1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3root",
+      "targets": [
+        ["index=3root"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c972646-1039-4ed8-87e7-29a8ec8ef25e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b5ae048-5324-413c-beef-d27ce5884155",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-1vtznih > .css-1dbjc4n",
+      "targets": [
+        ["css=.r-1vtznih > .css-1dbjc4n", "css:finder"],
+        ["xpath=//div[@id='id__v2pe5stcxks']/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "857b7994-10a6-4876-b6ac-150111e034a9",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.r-lrvibr > .r-z80fyv",
+      "targets": [
+        ["css=.r-lrvibr > .r-z80fyv", "css:finder"],
+        ["xpath=//div[@id='id__v2pe5stcxks']/div/div[2]/div[2]/div/div[2]/div/div[5]/div/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd95f126-4149-40d6-b9c8-bd38f7169b0c",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.r-1xtnvxp",
+      "targets": [
+        ["css=.r-1xtnvxp", "css:finder"],
+        ["xpath=//div[@id='id__v2pe5stcxks']/div/div[2]/div[2]/div/div[2]/div/div[5]/div/div[2]/div/div/div/div/div/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a28c21eb-9b89-4b78-b019-cb14b802e40a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-lrvibr > .r-z80fyv",
+      "targets": [
+        ["css=.r-lrvibr > .r-z80fyv", "css:finder"],
+        ["xpath=//div[@id='id__v2pe5stcxks']/div/div[2]/div[2]/div/div[2]/div/div[5]/div/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03792ef-7af8-4a6b-a610-d4d1d8d2d9a2",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.r-lrvibr > .r-z80fyv",
+      "targets": [
+        ["css=.r-lrvibr > .r-z80fyv", "css:finder"],
+        ["xpath=//div[@id='id__v2pe5stcxks']/div/div[2]/div[2]/div/div[2]/div/div[5]/div/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78e23780-626e-4ddd-8949-7cb8c00e9f79",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.r-1xtnvxp",
+      "targets": [
+        ["css=.r-1xtnvxp", "css:finder"],
+        ["xpath=//div[@id='id__v2pe5stcxks']/div/div[2]/div[2]/div/div[2]/div/div[5]/div/div[2]/div/div/div/div/div/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b36e5ba-d276-44b1-b014-8a2895acda43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-lrvibr > .r-z80fyv",
+      "targets": [
+        ["css=.r-lrvibr > .r-z80fyv", "css:finder"],
+        ["xpath=//div[@id='id__v2pe5stcxks']/div/div[2]/div[2]/div/div[2]/div/div[5]/div/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0391331e-7abc-453e-a33e-9a96d3a462e5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "164e8850-38e0-4612-a5b5-d27e2e4fe0a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Factsheets",
+      "targets": [
+        ["linkText=Factsheets", "linkText"],
+        ["css=.sfHover:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Factsheets')]", "xpath:link"],
+        ["xpath=//ul[@id='example']/li[5]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://pib.gov.in/AllFactsheet.aspx?MenuId=12')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Factsheets')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2676",
+      "windowTimeout": 2000
+    }, {
+      "id": "40cd69cc-32bd-4725-b5df-57624cc27675",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2676}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e22f60d-0028-4622-a48f-d9f1898a8ebd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Metro Rail Expansion: Connecting Urban India",
+      "targets": [
+        ["linkText=Metro Rail Expansion: Connecting Urban India", "linkText"],
+        ["css=.num > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Metro Rail Expansion: Connecting Urban India')]", "xpath:link"],
+        ["xpath=//form[@id='form1']/section[2]/div/div[4]/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/FactsheetDetails.aspx?Id=149065')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Metro Rail Expansion: Connecting Urban India')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38c7c7f7-aac3-44c1-9d1b-27a09677682c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pimage > div:nth-child(1)",
+      "targets": [
+        ["css=#pimage > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@onclick='rprint()']", "xpath:attributes"],
+        ["xpath=//div[@id='pimage']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02c8aa65-f811-48d8-90e5-f36be9cbc30a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MsoNormal:nth-child(5) > span",
+      "targets": [
+        ["css=.MsoNormal:nth-child(5) > span", "css:finder"],
+        ["xpath=//div[@id='condiv']/div[2]/div/p[5]/span", "xpath:idRelative"],
+        ["xpath=//p[5]/span", "xpath:position"]
+      ],
+      "value": "“Private participation either for complete provision of metro rail or for some unbundled components (like Automatic Fare Collection, Operation & Maintenance of services etc) will form an essential requirement for all metro ra il projects seeking central financial assistance” says the policy, to capitalize on private resources, expertise and entrepreneurship."
+    }, {
+      "id": "64160e4a-3e1c-431c-8b34-2866d965880c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1dbjc4n:nth-child(1) > .css-18t94o4 > .css-901oao path",
+      "targets": [
+        ["css=.css-1dbjc4n:nth-child(1) > .css-18t94o4 > .css-901oao path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5007117e-f03e-4913-b1a5-23cbffc897b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d986097f-31fe-4782-a5d7-0bc41c04d364"]
+  }],
+  "urls": [],
+  "plugins": []
+}
